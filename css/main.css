@@ -1,0 +1,164 @@
+/* Paleta de Colores
+@principal-color:
+   HEX : #000000;
+   RGB : 0 0 0;
+   HSV : 0 0 0;
+
+@secondary-color:
+   HEX : #FF821D;
+   RGB : 255 130 29;
+   HSV : 27 89 100;
+
+@tercery-color:
+   HEX : #FCF407;
+   RGB : 252 244 7;
+   HSV : 58 97 99;
+
+@cuartery-color:
+    HEX : #0722FC;
+   RGB : 7 34 252;
+   HSV : 233 97 99;
+
+@quiquery-color:
+/* HEX : #FC1207;
+   RGB : 252 18 7;
+   HSV : 3 97 99;
+*/
+body
+{
+   margin: 0;
+   padding: 0;
+   background: #e8eaf6;
+   font-family: sans-serif;∫
+}
+#header
+{
+   position: relative;
+   padding-left: 15px;
+   background: #000000;
+   height: 50px;
+}
+.logo
+{
+   display: inline-block;
+   height: 50px;
+}
+nav
+{
+   height: inherit;
+   padding: 0 10px;
+   display: flex;
+   align-items: center;
+}
+.menu
+{
+   display: inline-block;
+   float: right;
+   padding-right: 25px;
+   height: inherit;
+}
+.menu li
+{
+   display: inline-block;
+   margin-left: 30px;
+   height: inherit;
+}
+.menu li a
+{
+   text-decoration: none;
+   color: #FF6f00;
+   height: inherit;
+}
+.menu li a:hover
+{
+   background: #FF6f00;
+   color: #000000;
+   box-shadow: inset 1px 1px 1px #e8eaf6;
+   padding: 15px 10px 15px 15px;
+}
+.container
+{
+/*   background-size: 1240px; */
+   width: 890px;
+   margin: auto;
+   padding: 0;
+   top: 0;
+   background: #f2fade;
+}
+#portada
+{
+   background-image: url('../img/DSC_0062.JPG');
+   background-size: cover;
+   font-family: 'Arimo', sans-serif;
+   padding: 0;
+   height: 450px;
+}
+.titulo
+{
+   font-family: 'Mogra', sans-serif;
+   font-size: 40px;
+   color: #FF6f00;
+   margin-top: 0;
+   padding: 20px;
+   margin-bottom: 10px;
+   text-align: center;
+   text-shadow: 1px 1px 2px black;
+}
+.descripcionPortal
+{
+   background: white;
+   border-radius: 10px;
+   opacity: 0.8;
+   margin-left: 150px;
+   height: 240px;
+   width: 600px;
+}
+.slogan
+{
+   font-size: 20px;
+   color: #01579b;
+   padding: 10px 10px;
+   margin-bottom: 150px;
+}
+section h2
+{
+   font-size: 18px;
+}
+.descFoot
+{
+   border-top: 1px solid lightgray;
+   margin-top: 10px;
+   padding-top: 10px;
+   padding-left: 515px;
+}
+.button
+{
+   background: #000000;
+   color: #FF6f00;
+   border-radius: 5px;
+   font-size: 14px;
+   position: absolute;
+   padding: 5px 10px;
+}
+.button:active
+{
+   transform: scale(.9);
+   color: #ffeb3b;
+}
+#detalle
+{
+   color: #01579b;
+   margin: auto;
+   padding-left: 10px;
+   padding-bottom: 350px;
+}
+footer
+{
+   background-color: black;
+   color: #ffeb3b;
+   padding: 10px;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
