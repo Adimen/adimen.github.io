@@ -5,56 +5,61 @@
       <title>Adimen Website</title>
       <link href="https://fonts.googleapis.com/css?family=Arimo|Mogra" rel="stylesheet">
       <link rel="stylesheet" href="./css/main.css">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
    </head>
-   <body>
-      <header id="header">
-         <a href="http://www.adimen.cl"><img src="./img/adimen.png" alt="ADIMEN SpA" class="logo"></a>
-         <nav class="menu">
-            <ul>
-               <li><a href="#">Inicio</a></li>
-               <li><a href="#Servicios">Servicios</a></li>
-               <li><a href="#Articulos">Blog</a></li>
+   <body class="light-blue lighten-5">
+      <header>
+         <nav class="nav-wrapper white menu">
+            <a href="http://www.adimen.cl" class="brand-logo center"><img src="./img/adimen.png" alt="ADIMEN SpA" class="logo"></a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+               <li><a class="amber-text text-darken-4" href="#">Inicio</a></li>
+               <li><a class="amber-text text-darken-4" href="#Servicios">Servicios</a></li>
+               <li><a class="amber-text text-darken-4" href="#Articulos">Blog</a></li>
             </ul>
          </nav>
       </header>
       <div class="container">
-         <section id="portada">
-            <h1 class="titulo">Blog Adimen Software Factory</h1>
-            <div class="descripcionPortal">
-               <h3 class="slogan">Temas de tecnologia para apoyar a tu negocio.</h3>
-               <div class="descFoot">
-                  <button class="button" type="button" name="button">Ingresar</button>
-               </div>
+         <section>
+            <div class="row">
+              <div class="col s12 m7">
+                <div class="card">
+                  <div class="card-image">
+                    <img id="portada" src="./img/DSC_0062.JPG">
+                    <span class="card-title amber-text text-darken-4">Adimen Servicios Tecnologicos</span>
+                  </div>
+                  <div class="card-content">
+                    <p>Contamos con una amplia gama de servicios adaptados para la transformacion
+                       digital que su negocio necesita para dar un salto al futuro.</p>
+                  </div>
+                  <div class="card-action">
+                     <div class="row">
+                       <div class="input-field col s11">
+                         <input id="email" type="email" class="validate">
+                         <label for="email" data-error="Invalido" data-success="Valido">Email</label>
+                       </div>
+                     </div>
+                     <div class="row">
+                        <div class="input-field col s11">
+                         <input id="password" type="password" class="validate">
+                         <label for="password">Password</label>
+                        </div>
+                     </div>
+                     <a class="waves-effect waves-light btn">Ingresar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+
             </div>
          </section>
-         <section id="detalle">
-            <h2>Ve que esta ocurriendo en nuestras redes sociales</h2>
-            <article class="" id="Servicios">
-               <img src="" alt="">
-               <h3>Servicios</h3>
-               <ol>
-                  <li>Administracion de Plataformas</li>
-                  <li>Procesos ITIL</li>
-                  <li>Desarrollo de Aplicaciones</li>
-                  <li>Marketing Digital</li>
-                  <li>Seguridad de datos</li>
-                  <li>Business Intelligence</li>
-               </ol>
-            </article>
-            <article class="" id="Articulos">
-               <img src="" alt="">
-               <h3>Articulos</h3>
-               <ol>
-                  <li>Tecnologia</li>
-                  <li>Procesos</li>
-                  <li>Certificaciones</li>
-                  <li>Administracion de recursos TI</li>
-               </ol>
-            </article>
-         </section>
       </div>
-      <footer>
+      <footer class="black">
          &copy; 2017. Adimen SpA - Santiago - Chile.
       </footer>
+      <!-- Script Zone -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
    </body>
 </html>
