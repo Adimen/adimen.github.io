@@ -2,57 +2,47 @@
 <html lang="es-CL">
    <head>
       <meta charset="utf-8">
-      <title>Adimen Website</title>
+      <title>Adimen Portal</title>
       <link href="https://fonts.googleapis.com/css?family=Arimo|Mogra" rel="stylesheet">
       <link rel="stylesheet" href="./css/main.css">
       <!-- Compiled and minified CSS -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
    </head>
    <body class="light-blue lighten-5">
       <header>
-         <nav class="nav-wrapper white menu">
-            <a href="http://www.adimen.cl" class="brand-logo center"><img src="./img/Adimen.png" alt="ADIMEN SpA" class="logo"></a>
-            <ul id="nav-mobile" class="left hide-on-med-and-down">
-               <li><a class="amber-text text-darken-4" href="#">Inicio</a></li>
-               <li><a class="amber-text text-darken-4" href="#Servicios">Servicios</a></li>
-               <li><a class="amber-text text-darken-4" href="#Articulos">Blog</a></li>
-            </ul>
+         <nav class="header center">
+            Adimen Servicios de Tecnologia
          </nav>
       </header>
       <div class="container">
-         <section>
-            <div class="row">
-              <div class="col s12 m7">
-                <div class="card">
-                  <div class="card-image">
-                    <img id="portada" src="./img/DSC_0062.JPG">
-                    <span class="card-title amber-text text-darken-4">Adimen Servicios Tecnologicos</span>
-                  </div>
-                  <div class="card-content">
-                    <p>Contamos con una amplia gama de servicios adaptados para la transformacion
-                       digital que su negocio necesita para dar un salto al futuro.</p>
-                  </div>
-                  <div class="card-action">
-                     <div class="row">
-                       <div class="input-field col s11">
-                         <input id="email" type="email" class="validate">
-                         <label for="email" data-error="Invalido" data-success="Valido">Email</label>
-                       </div>
-                     </div>
-                     <div class="row">
-                        <div class="input-field col s11">
-                         <input id="password" type="password" class="validate">
-                         <label for="password">Password</label>
-                        </div>
-                     </div>
-                     <a class="waves-effect waves-light btn">Ingresar</a>
-                  </div>
-                </div>
-              </div>
+         <section class="main">
+            <img class="main__img" id="portada" src="./img/computer-1245714_1280.jpg" alt="Consultoria Tecnologica">
+         </section>
+         <section class="search">
+            <div class="search__title center">Buscar</div>
+            <div class="search__input center">
+               <i class="fas fa-search"></i>
+               <input type="text" placeholder="Aqui puedes ver si tenemos el servicio que buscas">
             </div>
-            <div class="row">
-
+         </section>
+         <section class="ps">
+            <img class="ps__img--primary" src="https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg" alt="Machine Learning">
+            <div class="ps__description--primary center">
+               <p>Servicios de Machine Learning</p>
             </div>
+            <img class="ps__img--secondary" src="https://cdn.pixabay.com/photo/2017/12/13/18/03/cloud-3017392__480.png" alt="Asesorias de Cloud Services">
+            <div class="ps__description--secondary center">
+               <p>Servicios de Asesoria en CloudOps</p>
+            </div>
+         </section>
+         <section class="ss">
+               <img class="ss__img--primary" src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536__480.jpg" alt="Desarrollo Web">
+               <div class="ss__description--primary center">
+                  <p>Desarrollo de Software</p>
+               </div>
+               <img class="ss__img--secondary" src="https://cdn.pixabay.com/photo/2018/10/17/08/58/transformation-3753466__480.jpg" alt="Transformacion Digital">
+               <div class="ss__description--secondary center">
+                  <p>Asesorias en Transformacion Digital</p>
+               </div>
          </section>
       </div>
       <footer class="black amber-text text-darken-4">
@@ -60,6 +50,5 @@
       </footer>
       <!-- Script Zone -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
    </body>
 </html>
